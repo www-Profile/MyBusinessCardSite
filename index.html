@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Сайт-визитка Матвея Завьялова — начинающий веб-разработчик">
+    <title>Матвей Завьялов | Веб-разработка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MZ</div>
+            <ul class="nav-links">
+                <li><a href="#firstSection" class="nav-link" data-key="navHome">Главная</a></li>
+                <li><a href="#secondSection" class="nav-link" data-key="navSkills">Умею</a></li>
+                <li><a href="#thirdSection" class="nav-link" data-key="navOffer">Предлагаю</a></li>
+                <li><a href="#fourthSection" class="nav-link" data-key="navBooking">Запись</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ПЕРВАЯ СЕКЦИЯ (Hero с 3D) -->
+        <section class="hero fullscreen" id="firstSection">
+            <div class="hero-glow" id="heroGlow"></div>
+            <div class="hero-glow-3d"></div>
+            <div class="hero-model">
+                <div class="container-empty">
+                    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+                    <spline-viewer url="https://prod.spline.design/j0t-Cv9DV3sAMi9o/scene.splinecode"></spline-viewer>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-3d-text">
+                <div class="hero-3d-title">
+                    <span class="hero-3d-first" data-key="thirdFirstName">Матвей</span>
+                    <span class="hero-3d-last accent" data-key="thirdLastName">Завьялов</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ВТОРАЯ СЕКЦИЯ -->
+        <section class="second-section" id="secondSection">
+            <div class="second-bg-model">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/lrO2xeBKkRQgh9eA/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="second-container">
+                <div class="button-column">
+                    <button class="square-btn active" data-btn="1">01</button>
+                    <button class="square-btn" data-btn="2">02</button>
+                    <button class="square-btn" data-btn="3">03</button>
+                    <button class="square-btn" data-btn="4">04</button>
+                    <button class="square-btn" data-btn="5">05</button>
+                </div>
+                <div class="text-column">
+                    <h2 class="section-title-small" id="smallTitle">Работа с ИИ инструментами</h2>
+                    <p class="skill-text" id="skillText">Умею работать с нейросетями и ускорять процесс разработки. Использую современные ИИ-решения для написания кода, генерации контента и поиска нестандартных идей. Это позволяет делать проекты быстрее и качественнее.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-between"></div>
+
+        <!-- ТРЕТЬЯ СЕКЦИЯ -->
+        <section class="third-section empty fullscreen" id="thirdSection">
+            <div class="third-bg-model">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/Yij7UaniIhb-8liR/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="services-wrapper">
+                <div class="service-item">
+                    <h3 data-key="service1Title">Сайт-визитка</h3>
+                    <p data-key="service1Desc">Компактный сайт из 3-5 страниц с информацией о компании или человеке. Подходит фрилансерам, небольшим компаниям. Включает адаптивный дизайн, контакты, форму обратной связи.</p>
+                </div>
+                <div class="divider-vertical"></div>
+                <div class="service-item">
+                    <h3 data-key="service2Title">Лендинг</h3>
+                    <p data-key="service2Desc">Одностраничный сайт для продажи одного товара или услуги. Подходит для рекламных кампаний, запуска новых продуктов, сбора заявок и лидов.</p>
+                </div>
+                <div class="divider-vertical"></div>
+                <div class="service-item">
+                    <h3 data-key="service3Title">Интернет-магазин</h3>
+                    <p data-key="service3Desc">Многостраничный сайт с каталогом товаров, корзиной, оформлением заказа, оплатой и доставкой. Подходит для продажи любых товаров: одежды, техники, продуктов, авторских изделий.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ЧЕТВЁРТАЯ СЕКЦИЯ (Форма) -->
+        <section class="fourth-section fullscreen" id="fourthSection">
+            <div class="fourth-bg-model">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.92/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/NIeQw66JOnZEWg6W/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="form-container">
+                <h2 data-key="formTitle">Оставьте заявку</h2>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <input type="text" id="formName" placeholder=" " required>
+                        <label data-key="formName">Имя</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="formPhone" placeholder=" " required>
+                        <label data-key="formPhone">Телефон</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="formEmail" placeholder=" " required>
+                        <label data-key="formEmail">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="formService" list="services" placeholder=" " required>
+                        <datalist id="services">
+                            <option value="Сайт-визитка">
+                            <option value="Лендинг">
+                            <option value="Интернет-магазин">
+                        </datalist>
+                        <label data-key="formServiceLabel">Тип сайта</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="formComment" placeholder=" ">
+                        <label data-key="formComment">Комментарий</label>
+                    </div>
+                    <button type="submit" class="submit-btn" data-key="formSubmit">Отправить</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
