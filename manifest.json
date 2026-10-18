@@ -1,0 +1,13 @@
+{
+  "name": "Автобусные перевозки — Шлиссельбург",
+  "short_name": "Bus",
+  "description": "Пассажирские перевозки по Санкт-Петербургу и Ленинградской области. Свадьбы, экскурсии, школы, корпоративы, трансферы.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "lang": "ru",
+  "dir": "ltr"
+}
